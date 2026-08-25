@@ -1,6 +1,6 @@
-
 <?php
 
+namespace App\Core;
 class Debug
 {
     private function __construct(){}

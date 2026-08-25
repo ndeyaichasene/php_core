@@ -1,5 +1,10 @@
 <?php
 
+namespace App\Core;
+use PDO;
+use PDOException;
+use PDOStatement;
+
 class Database
 {
 
