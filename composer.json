@@ -1,5 +1,5 @@
 {
-    "name": "aicha/core",
+    "name": "ndeyaicha/core",
     "description": "Core PHP components",
     "autoload": {
         "psr-4": {
