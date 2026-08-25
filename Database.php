@@ -69,7 +69,8 @@ class Database
      public static function getAllData(string $tableName): array
     {
         $sql = "SELECT * FROM $tableName";
-        return self::query($sql, false);
+        $result = self::query($sql, false);
+        return $result;
     }
 
     
